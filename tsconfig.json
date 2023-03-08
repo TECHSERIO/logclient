@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ES2020.Promise",
+      "DOM"
+    ],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "sourceMap": true,
+    "target": "es2017",
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
